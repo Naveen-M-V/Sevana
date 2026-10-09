@@ -1,0 +1,70 @@
+/* Sevana HIMS — Modern Clinical Blue Theme with Elite SaaS tokens */
+:root {
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-text: #0f172a;
+  --color-text-secondary: #475569;
+  
+  --color-accent: #2563eb;
+  --color-accent-2: #3b82f6;
+  --color-accent-100: #eff6ff;
+  --color-accent-200: #dbeafe;
+  --color-accent-300: #bfdbfe;
+  --color-accent-400: #60a5fa;
+  --color-accent-500: #3b82f6;
+  --color-accent-600: #2563eb;
+  --color-accent-700: #1d4ed8;
+  --color-accent-800: #1e40af;
+  --color-accent-900: #0f172a;
+  
+  --color-accent-2-100: #eff6ff;
+  --color-accent-2-800: #1e40af;
+  
+  --panel: #ffffff;
+  --line: #e2e8f0;
+  --color-divider: #e2e8f0;
+  --muted: #64748b;
+  
+  --st-ok: #15803d; --st-ok-bg: #dcfce7;
+  --st-warn: #b45309; --st-warn-bg: #fef3c7;
+  --st-crit: #b91c1c; --st-crit-bg: #fee2e2; --st-crit-solid: #ef4444;
+  --st-pend: #1d4ed8; --st-pend-bg: #eff6ff;
+  --st-done: #0284c7; --st-done-bg: #e0f2fe;
+  --st-cancel: #64748b; --st-cancel-bg: #f1f5f9;
+  --st-inactive: #64748b; --st-inactive-bg: #f1f5f9;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.06), 0 1px 2px -1px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.06);
+}
+
+html, body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--color-accent-700);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: var(--color-accent-800);
+}
+
+input[type="checkbox"], input[type="radio"] {
+  accent-color: var(--color-accent);
+}
